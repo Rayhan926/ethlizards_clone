@@ -12,6 +12,7 @@ module.exports = {
         "dm-sans": ["DM Sans", "sans-serif"],
         inter: ["Inter", "sans-serif"],
         "space-mono": ["Space Mono", "monospace"],
+        "bakbak-one": ["Bakbak One", "cursive"],
       },
     },
   },

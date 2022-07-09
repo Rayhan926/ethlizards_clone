@@ -5,7 +5,7 @@ import SectionTitleSmall from "./SectionTitleSmall";
 
 const CouncilSection = () => {
   return (
-    <section className="pt-20 pb-[100px] bg-white/5 mt-20">
+    <section className="pt-20 pb-[100px] bg-white/5">
       <div className="container">
         <div className="text-center">
           <SectionTitleSmall title={"ETHLIZARDS' COUNCIL MEMBERS"} />
@@ -14,7 +14,10 @@ const CouncilSection = () => {
 
         <div className="mt-[53px] flex justify-center flex-wrap">
           {councils.map((council, i) => (
-            <div className="px-[22px] w-1/3 mb-[33px]" key={i}>
+            <div
+              className="px-[22px] w-full sm:w-1/2 lg:w-1/3 mb-[33px]"
+              key={i}
+            >
               <Card {...council} />
             </div>
           ))}

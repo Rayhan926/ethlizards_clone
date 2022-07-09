@@ -1,6 +1,7 @@
 import React from "react";
 import { FaDiscord } from "react-icons/fa";
 import { BsTwitter } from "react-icons/bs";
+import Footer from "./Footer";
 
 const JoinTheLoungeSection = () => {
   return (
@@ -12,7 +13,7 @@ const JoinTheLoungeSection = () => {
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
       }}
-      className="pt-[100px] flex flex-col justify-center min-h-[850px]"
+      className="pt-[180px] flex flex-col justify-center relative"
     >
       <div className="container flex flex-col items-center">
         <h2 className="title_lg text-white">JOIN THE LOUNGE</h2>
@@ -23,16 +24,16 @@ const JoinTheLoungeSection = () => {
             target={"_blank"}
             className="w-[200px] h-[60px] flex items-center gap-1 justify-center font-bakbak-one bg-[#5865F2] text-white hover:opacity-80"
           >
-            <FaDiscord size={25} />
+            <FaDiscord size={27} />
             DISCORD
           </a>
         </div>
-        <div className="flex justify-center gap-2.5">
+        <div className="flex justify-center gap-2.5 mb-[70px]">
           <a
             href="https://opensea.io/collection/ethlizards"
             rel="noreferrer"
             target={"_blank"}
-            className="w-[60px] h-[60px] bg-white/10 flex items-center justify-center group"
+            className="w-[50px] h-[50px] md:w-[60px] md:h-[60px] bg-white/10 flex items-center justify-center group"
           >
             <OpenSea />
           </a>
@@ -40,7 +41,7 @@ const JoinTheLoungeSection = () => {
             href="https://twitter.com/ethlizards"
             rel="noreferrer"
             target={"_blank"}
-            className="w-[60px] h-[60px] bg-white/10 flex items-center justify-center group"
+            className="w-[50px] h-[50px] md:w-[60px] md:h-[60px] bg-white/10 flex items-center justify-center group"
           >
             <BsTwitter
               size={27}
@@ -49,6 +50,8 @@ const JoinTheLoungeSection = () => {
           </a>
         </div>
       </div>
+
+      <Footer />
     </section>
   );
 };

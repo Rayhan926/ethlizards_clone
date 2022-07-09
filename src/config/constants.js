@@ -24,13 +24,13 @@ export const teams = [
     twitter: "https://twitter.com/Wanderingcrypt4",
   },
   {
-    imgSrc: "/img/team_5.png",
+    imgSrc: "/img/team_5.jpeg",
     name: "Genosis",
     title: "Product Designer, Animator",
     twitter: "https://twitter.com/genosis2130",
   },
   {
-    imgSrc: "/img/team_6.png",
+    imgSrc: "/img/team_6.jpeg",
     name: "Astral Ape",
     title: "Social Media Lead",
     twitter: "https://twitter.com/astral_ape",
@@ -103,5 +103,84 @@ export const councils = [
     name: "Marmalade",
     title: "Council Member",
     twitter: "https://twitter.com/__Marmalade___",
+  },
+];
+
+export const navLinks = [
+  {
+    text: "About",
+    url: "#about",
+  },
+  {
+    text: "Roadmap",
+    url: "#roadmap",
+  },
+  {
+    text: "Team",
+    url: "#team",
+  },
+  {
+    text: "Soon",
+    url: "#soon",
+  },
+  {
+    text: "Forums",
+    url: "#forums",
+  },
+  {
+    text: "Docs",
+    url: "#docs",
+  },
+];
+
+export const roadmaps = [
+  {
+    isDone: true,
+    date: "OCTOBER 2021",
+    title: "The Underground Lizard Lounge",
+    description:
+      "Our lounge will be created with exclusive access given to Ethlizards NFT holders.",
+  },
+  {
+    isDone: true,
+    date: "FEBRUARY 2022",
+    title: "Ethlizards Mint",
+    description: "Our mint was a huge success and sold out within 3 minutes!",
+  },
+  {
+    isDone: true,
+    date: "MARCH 2022",
+    title: "GameFi DAO",
+    description:
+      "We established ourselves as a GameFi Dao with overwhelming support from our community.",
+  },
+  {
+    isDone: true,
+    date: "JUNE 2022",
+    title: "Website Update & Council Elections",
+    description:
+      "We'll update our website and begin the council election process.",
+  },
+  {
+    date: "Q3 2022",
+    title: "Ethlizards Dashboard Launch",
+    description:
+      "We'll open our investment dashboard for Ethlizards NFT holders.",
+  },
+  {
+    date: "Q3-Q4 2022",
+    title: "Staking Launch",
+    description: "Start staking your Ethlizards NFTs to earn rewards.",
+  },
+  {
+    date: "TBD",
+    title: "Merch Launch",
+    description:
+      "Represent your favourite GameFi DAO with our official Ethlizards merch!",
+  },
+  {
+    date: "TBD",
+    title: "Interactive Website",
+    description: "New and exclusive Ethlizards holder features and more.",
   },
 ];

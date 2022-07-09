@@ -21,7 +21,20 @@ const FindUsOnOpenseaSection = () => {
           FIND US ON <span className="text-secondary">OPENSEA</span>
         </h3>
         <div>
-          <Swiper spaceBetween={30} slidesPerView={6}>
+          <Swiper
+            spaceBetween={30}
+            breakpoints={{
+              0: {
+                slidesPerView: 2,
+              },
+              768: {
+                slidesPerView: 4,
+              },
+              992: {
+                slidesPerView: 6,
+              },
+            }}
+          >
             {nfts.map((nft, i) => (
               <SwiperSlide key={i}>
                 <div className="py-10 cursor-pointer">

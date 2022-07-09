@@ -5,7 +5,7 @@ const OurAdvisiorSection = () => {
   return (
     <section className="pt-[100px]">
       <div className="container">
-        <div className="grid grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           <div className="flex flex-col justify-center">
             <div>
               <SectionTitleSmall title={"OUR ADVISOR"} hideLeftIcon />
@@ -32,8 +32,12 @@ const OurAdvisiorSection = () => {
             </div>
           </div>
 
-          <div className="relative">
-            <img src="/img/advisor_bg.png" alt="advisor_bg" />
+          <div className="relative h-[550px]">
+            <img
+              src="/img/advisor_bg.png"
+              alt="advisor_bg"
+              className="h-full w-full"
+            />
             <div className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-[300px]">
               <img src="/img/advisor.png" alt="advisor" />
 

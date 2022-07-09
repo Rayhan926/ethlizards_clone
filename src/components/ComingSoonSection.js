@@ -4,7 +4,7 @@ import Marquee from "react-fast-marquee";
 
 const ComingSoonSection = () => {
   return (
-    <section className="pt-20">
+    <section className="pt-20 scroll-mt-10" id="soon">
       <div className="container">
         <div className="text-center pb-[53px]">
           <SectionTitleSmall title={"THE PIPELINE"} />
@@ -12,7 +12,7 @@ const ComingSoonSection = () => {
         </div>
       </div>
       <Marquee speed={200} gradient={false}>
-        <div className="flex gap-5">
+        <div className="flex gap-5 [&>img]:w-[500px] lg:[&>img]:w-auto">
           <img src="/img/pipeline_1.png" alt="pipeline_1" />
           <img src="/img/pipeline_2.png" alt="pipeline_2" />
           <img src="/img/pipeline_3.png" alt="pipeline_3" />
